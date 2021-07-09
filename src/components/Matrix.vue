@@ -30,8 +30,12 @@ export default {
   border-radius: 5px;
   display: flex;
   margin: 10px auto;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   background-color:#fcf3e8;
+}
+
+.m-container > * {
+  flex: 0 0 23%;
 }
 </style>

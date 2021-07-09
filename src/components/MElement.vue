@@ -23,17 +23,22 @@ button {
 }
 .m-elem {
   background-color: #c1f7fe;
-  width: 120px;
-  height: 100px;
-  margin: 5px;
+  width: 100%;
+  margin: 5px auto;
   text-align: center;
-  vertical-align: middle;
-  line-height: 100px;
-  font-size: xxx-large;
-
+  font-size: 3em;
+  font-size: 8vw;
+  aspect-ratio: auto 4/3;
 }
 
-.m-elem:hover{
+@media screen and (min-width: 730px) {
+  .m-elem {
+     font-size: 60px;
+  }
+}
+
+.m-elem:hover {
   background-color: #90ee90;
+  cursor: pointer;
 }
 </style>
